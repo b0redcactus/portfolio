@@ -3,8 +3,8 @@ window.content = {
   intro: {
     bio:
       "I am a design engineer with a passion for transforming complex challenges into elegant digital products.",
-    languages: ["English", "Bahasa"],
-    skills: ["Design Systems", "Web Apps", "AI tools"]
+    languages: ["Hungarian", "English"],
+    skills: ["System design", "skill2", "skill3"]
   },
   work: [
     {
@@ -50,5 +50,6 @@ window.content = {
     { src: "assets/gallery-2.jpg", alt: "Mobile app" }
   ]
 };
+
 
 

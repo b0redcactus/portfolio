@@ -28,17 +28,6 @@ window.content = {
       ],
       image: "assets/work-2.jpg",
       tags: ["Figma", "Design Ops"]
-    },
- {
-      company: "Creativ3",
-      role: "Lead Designer",
-      timeframe: "2018 – 2022",
-      bullets: [
-        "Built a cross-platform design system improving consistency by 40%.",
-        "Launched a new product line contributing to +15% revenue."
-      ],
-      image: "assets/work-2.jpg",
-      tags: ["Figma", "Design Ops"]
     }
     
   ],
@@ -62,6 +51,7 @@ window.content = {
     { src: "assets/gallery-2.jpg", alt: "Mobile app" }
   ]
 };
+
 
 
 

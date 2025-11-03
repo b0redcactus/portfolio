@@ -1,6 +1,4 @@
-# Magic-like Portfolio (Static, GitHub Pages Ready)
 
-A no-build, copy‑paste portfolio inspired by Once UI's Magic Portfolio. Push to any GitHub repo and enable GitHub Pages.
 
 ## Quick start
 
@@ -27,8 +25,5 @@ A no-build, copy‑paste portfolio inspired by Once UI's Magic Portfolio. Push t
 - `404.html` – SPA redirect for GitHub Pages
 - `assets/` – images (place your own)
 
-## License
-
-Free for personal and commercial use. No attribution required. If you like the original concept, check out Magic Portfolio [`magic-portfolio`](https://github.com/once-ui-system/magic-portfolio).
 
 

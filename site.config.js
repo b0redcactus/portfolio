@@ -1,8 +1,8 @@
 // Basic site configuration you can tweak quickly
 window.siteConfig = {
-  title: "Selene Yu",
-  role: "Design Engineer",
-  location: "Asia/Jakarta",
+  title: "Péter Biodrowicz",
+  role: "Electrical Engineer",
+  location: "Budapest",
   avatar: "assets/avatar.jpg",
   enablePages: {
     about: true,
@@ -11,10 +11,9 @@ window.siteConfig = {
     gallery: true
   },
   social: [
-    { label: "GitHub", url: "https://github.com/yourname" },
-    { label: "LinkedIn", url: "https://www.linkedin.com/in/yourname" },
-    { label: "Email", url: "mailto:you@example.com" }
+    { label: "LinkedIn", url: "https://www.linkedin.com/in/p%C3%A9ter-biodrowicz-99b900228/" }
   ]
 };
+
 
 

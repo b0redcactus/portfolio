@@ -72,15 +72,16 @@ window.content = {
       slug: "Cable current capacity + votlage drop calculator",
       title: "Cable current capacity + votlage drop calculator",
       date: "2025-10-15",
-      //cover: "assets/blog-1.jpg",
+      cover: "assets/blog-1.jpg",
       body:
         "I developed an offline cable load calculator that compares the calculated current-carrying capacity with the system current and includes a voltage drop calculation module as well.",
      "https://b0redcactus.github.io/cablecalc/"
     }
   ],
-  /*gallery: [
+  gallery: [
     { src: "assets/gallery-1.jpg", alt: "Dashboard" },
     { src: "assets/gallery-2.jpg", alt: "Mobile app" }
-  ]*/
+  ]
 };
+
 

@@ -69,13 +69,12 @@ window.content = {
   skills: ["PV design", "BESS design", "AutoCAD", "Permit management", "Construction support"],
   blog: [
     {
-      slug: "Cable current capacity + votlage drop calculator",
-      title: "Cable current capacity + votlage drop calculator",
+      slug: "Cable current capacity and votlage drop calculator",
+      title: "Cable current capacity and votlage drop calculator",
       date: "2025-10-15",
       cover: "assets/blog-1.jpg",
       body:
-        "I developed an offline cable load calculator that compares the calculated current-carrying capacity with the system current and includes a voltage drop calculation module as well.",
-     "https://b0redcactus.github.io/cablecalc/"
+        "I developed an offline cable load calculator that compares the calculated current-carrying capacity with the system current and includes a voltage drop calculation module as well."
     }
   ],
   gallery: [
@@ -83,5 +82,6 @@ window.content = {
     { src: "assets/gallery-2.jpg", alt: "Mobile app" }
   ]
 };
+
 
 

@@ -1,4 +1,5 @@
 (function () {
+  const { siteConfig, content } = window;
   const el = (html) => {
     const template = document.createElement("template");
     template.innerHTML = html.trim();
@@ -116,5 +117,6 @@
     app.appendChild(grid);
   };
 })();
+
 
 

@@ -2,52 +2,78 @@
 window.content = {
   intro: {
     bio:
-      "I am a design engineer with a passion for transforming complex challenges into elegant digital products.",
+      "I am an electrical engineer specializing in PV and BESS system design, leading design projects from concept to implementation.",
     languages: ["Hungarian", "English"],
-    skills: ["System design", "skill2", "skill3"]
+    skills: ["Designer", "Design management", "AutoCAD"]
   },
   work: [
     {
-      company: "FLY",
-      role: "Senior Design Engineer",
-      timeframe: "2022 – Present",
+      company: "Solservices",
+      role: "Project Engineer",
+      timeframe: "2024.04 – Present",
       bullets: [
-        "Redesigned the platform, increasing engagement by 20% and improving load time by 30%.",
-        "Integrated AI tools to speed up design iteration by 50%."
+        "Leading design works internally",
+        "PV projects up to 50 MW",
+        "BESS projects up to 30 MVA / 50 MWh",
+        "Permit tracking",
+        "Expanding knowledge of 22 kV / 132 kV substations",
+        "Construction support",
+        "Communicating with technical inspectors and designers",
+        "Internal design tasks such as monitoring system design and cable trench cross-sections"
       ],
       image: "assets/work-1.jpg",
       tags: ["Next.js", "Design System", "AI"]
     },
     {
-      company: "Creativ3",
-      role: "Lead Designer",
-      timeframe: "2018 – 2022",
+      company: "Eslar",
+      role: "Electrical design engineer",
+      timeframe: "2023.10 – 2024.03",
       bullets: [
-        "Built a cross-platform design system improving consistency by 40%.",
-        "Launched a new product line contributing to +15% revenue."
+        "Designing PV power plants up to 5 MW",
+        "DC, AC cabinet designs",
+        "Single line diagrams",
+        "Monitoring designs",
+        "Protection calculations",
+        "Cable trench cross sections"
+        "Layouts"
       ],
       image: "assets/work-2.jpg",
-      tags: ["Figma", "Design Ops"]
+      tags: ["AutoCAD", "Design Engineer"]
     },
 
      {
-      company: "Creativ4",
-      role: "asd",
-      timeframe: "2018 – 2022",
+      company: "Phlegon",
+      role: "Electrical design engineer",
+      timeframe: "2022.06 – 2023.10",
       bullets: [
-        "asd123",
-        "Launched a new product line contributing to +15% revenue."
+        "Designing PV power plants up to 2 MW",
+        "DC, AC cabinet designs",
+        "Single line diagrams",
+        "Layouts"
+        "Working in AutoCAD Electrical"
       ],
       image: "assets/work-2.jpg",
-      tags: ["Figma", "Design Ops"]
+      tags: ["AutoCAD", "Designer"]
+    },
+
+     {
+      company: "Intern jobs",
+      role: "Intern electrical engineer",
+      timeframe: "2021.11 – 2022.05",
+      bullets: [
+        "Writing my BSc thesis on the design of a 22 kV/0.4 kV distribution line",
+        "Learning about electrical building design"
+      ],
+      image: "assets/work-2.jpg",
+      tags: ["AutoCAD", "Intern"]
     }
     
   ],
   studies: [
-    { title: "B.Sc. Interaction Design", place: "IDN University", year: "2018" },
-    { title: "Design Engineering Nanodegree", place: "Online", year: "2020" }
+    { title: "BSc Electrical Engineer", place: "University of Pécs", year: "2018-2022" },
+    { title: "MSc Electrical Engineer", place: "Óbuda University", year: "2022-2024" }
   ],
-  skills: ["TypeScript", "React", "Next.js", "Node.js", "Figma", "Tailwind"],
+  skills: ["PV design", "BESS design", "AutoCAD"],
   blog: [
     {
       slug: "designing-with-constraints",
@@ -63,6 +89,7 @@ window.content = {
     { src: "assets/gallery-2.jpg", alt: "Mobile app" }
   ]
 };
+
 
 
 

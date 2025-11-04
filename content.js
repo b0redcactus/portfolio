@@ -22,7 +22,7 @@ window.content = {
         "Internal design tasks such as monitoring system design and cable trench cross-sections"
       ],
       image: "assets/work-1.jpg",
-      tags: ["Next.js", "Design System", "AI"]
+      tags: ["Design management", "AutoCAD", "PV+BESS"]
     },
     {
       company: "Eslar",
@@ -34,14 +34,13 @@ window.content = {
         "Single line diagrams",
         "Monitoring designs",
         "Protection calculations",
-        "Cable trench cross sections"
+        "Cable trench cross sections",
         "Layouts"
       ],
       image: "assets/work-2.jpg",
       tags: ["AutoCAD", "Design Engineer"]
     },
-
-     {
+    {
       company: "Phlegon",
       role: "Electrical design engineer",
       timeframe: "2022.06 – 2023.10",
@@ -49,14 +48,13 @@ window.content = {
         "Designing PV power plants up to 2 MW",
         "DC, AC cabinet designs",
         "Single line diagrams",
-        "Layouts"
+        "Layouts",
         "Working in AutoCAD Electrical"
       ],
       image: "assets/work-2.jpg",
       tags: ["AutoCAD", "Designer"]
     },
-
-     {
+    {
       company: "Intern jobs",
       role: "Intern electrical engineer",
       timeframe: "2021.11 – 2022.05",
@@ -67,7 +65,6 @@ window.content = {
       image: "assets/work-2.jpg",
       tags: ["AutoCAD", "Intern"]
     }
-    
   ],
   studies: [
     { title: "BSc Electrical Engineer", place: "University of Pécs", year: "2018-2022" },
@@ -89,10 +86,3 @@ window.content = {
     { src: "assets/gallery-2.jpg", alt: "Mobile app" }
   ]
 };
-
-
-
-
-
-
-

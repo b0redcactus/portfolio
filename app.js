@@ -61,20 +61,22 @@
     app.appendChild(el(`<div class="card">${content.skills.map((x)=>`<span class="tag">${x}</span>`).join("")}</div>`));
   };
 
-  window.renderWork = function renderWork() {
-    document.title = `${siteConfig.title} – Work`;
-    app.innerHTML = `<h1 class="title">Work</h1>`;
-    const grid = el(`<div class="grid"></div>`);
-    content.work.forEach((w) => grid.appendChild(el(`
-      <article class="card">
-        <img src="${w.image}" alt="${w.company}" style="width:100%;border-radius:8px;border:1px solid var(--border);margin-bottom:8px;">
-        <div><strong>${w.company}</strong> · <span class="muted">${w.role}</span></div>
-        <div class="muted" style="margin:6px 0;">${w.timeframe}</div>
-        <div>${(w.tags||[]).map((t)=>`<span class="tag">${t}</span>`).join("")}</div>
-      </article>
-    `)));
-    app.appendChild(grid);
-  };
+
+window.renderWork = function renderWork() {
+  document.title = `${siteConfig.title} – Work`;
+  app.innerHTML = `<h1 class="title">Work</h1>`;
+  const grid = el(`<div class="grid"></div>`);
+  content.work.forEach((w) => grid.appendChild(el(`
+    <article class="card">
+      ${w.image ? `<img src="${w.image}" alt="${w.company}" style="width:100%;border-radius:8px;border:1px solid var(--border);margin-bottom:8px;">` : ""}
+      <div><strong>${w.company}</strong> · <span class="muted">${w.role}</span></div>
+      <div class="muted" style="margin:6px 0;">${w.timeframe}</div>
+      <div>${(w.tags||[]).map((t)=>`<span class="tag">${t}</span>`).join("")}</div>
+    </article>
+  `)));
+  app.appendChild(grid);
+};
+
 
   window.renderBlogList = function renderBlogList() {
     document.title = `${siteConfig.title} – Blog`;
@@ -117,6 +119,7 @@
     app.appendChild(grid);
   };
 })();
+
 
 
 

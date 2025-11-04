@@ -21,7 +21,6 @@ window.content = {
         "Communicating with technical inspectors and designers",
         "Internal design tasks such as monitoring system design and cable trench cross-sections"
       ],
-      image: "assets/work-1.jpg",
       tags: ["Design management", "AutoCAD", "PV+BESS"]
     },
     {
@@ -37,7 +36,6 @@ window.content = {
         "Cable trench cross sections",
         "Layouts"
       ],
-      image: "assets/work-2.jpg",
       tags: ["AutoCAD", "Design Engineer"]
     },
     {
@@ -51,7 +49,6 @@ window.content = {
         "Layouts",
         "Working in AutoCAD Electrical"
       ],
-      image: "assets/work-2.jpg",
       tags: ["AutoCAD", "Designer"]
     },
     {
@@ -62,7 +59,6 @@ window.content = {
         "Writing my BSc thesis on the design of a 22 kV/0.4 kV distribution line",
         "Learning about electrical building design"
       ],
-      image: "assets/work-2.jpg",
       tags: ["AutoCAD", "Intern"]
     }
   ],
@@ -70,19 +66,21 @@ window.content = {
     { title: "BSc Electrical Engineer", place: "University of Pécs", year: "2018-2022" },
     { title: "MSc Electrical Engineer", place: "Óbuda University", year: "2022-2024" }
   ],
-  skills: ["PV design", "BESS design", "AutoCAD"],
+  skills: ["PV design", "BESS design", "AutoCAD", "Permit management", "Construction support"],
   blog: [
     {
-      slug: "designing-with-constraints",
-      title: "Designing With Constraints",
-      date: "2025-01-05",
-      cover: "assets/blog-1.jpg",
+      slug: "Cable current capacity + votlage drop calculator",
+      title: "Cable current capacity + votlage drop calculator",
+      date: "2025-10-15",
+      //cover: "assets/blog-1.jpg",
       body:
-        "Constraints enable creativity. In this short note I share patterns I use when working with strict performance and accessibility targets."
+        "I developed an offline cable load calculator that compares the calculated current-carrying capacity with the system current and includes a voltage drop calculation module as well.",
+     "https://b0redcactus.github.io/cablecalc/"
     }
   ],
-  gallery: [
+  /*gallery: [
     { src: "assets/gallery-1.jpg", alt: "Dashboard" },
     { src: "assets/gallery-2.jpg", alt: "Mobile app" }
-  ]
+  ]*/
 };
+

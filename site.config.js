@@ -8,12 +8,13 @@ window.siteConfig = {
     about: true,
     work: true,
     blog: true,
-    gallery: true
+    gallery: false
   },
   social: [
     { label: "LinkedIn", url: "https://www.linkedin.com/in/p%C3%A9ter-biodrowicz-99b900228/" }
   ]
 };
+
 
 
 
